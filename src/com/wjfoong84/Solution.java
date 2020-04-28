@@ -1,3 +1,5 @@
+package com.wjfoong84;
+import com.wjfoong84.model.Bird;
 
 public class Solution {
 
