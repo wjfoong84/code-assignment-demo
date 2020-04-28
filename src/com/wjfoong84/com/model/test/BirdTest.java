@@ -11,16 +11,17 @@ import com.wjfoong84.model.Bird;
 
 public class BirdTest {
 
-	@Test
-    public void FlyTest() {
-		final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
-		System.setOut(new PrintStream(outContent));
-		
-		Bird bird = new Bird();
-		bird.fly();
-        
-        assertEquals("I am flying", outContent.toString());
-	}
+//  No all bird fly
+//	@Test
+//    public void FlyTest() {
+//		final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+//		System.setOut(new PrintStream(outContent));
+//		
+//		Bird bird = new Bird();
+//		bird.fly();
+//        
+//      assertEquals("I am flying", outContent.toString());
+//	}
 	
 	@Test
     public void SingTest() {
@@ -32,6 +33,5 @@ public class BirdTest {
         
         assertEquals("I am singing", outContent.toString());
 	}
-	
 	
 }
